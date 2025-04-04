@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Q~Eiwp`Lk;23_?Vr{XSp">Korb</variable><variable id="J.z)mA7ka|;N(}H*(tZp">sprite</variable><variable id="yAXI-5w9M?Sk+1P;J]kM">Ball</variable><variable id="^)@Y[pQE+sG3s2+RsTfo">Punkte</variable></variables><block type="device_gesture_event" id="1Se*vJA$x#cEt8FFA]F`" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="game_set_score" id=".Md*6v53SRUk/#CTk}x6"><value name="points"><shadow type="math_number" id="CP*A_f2!DlN_OFv7159V"><field name="NUM">0</field></shadow><block type="device_random" id="t4W_~BCCV8;lJ+`ARty("><value name="min"><shadow type="math_number" id="z6)B=L[*,FL9|G:9Mx/3"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="I+!}M2F^P`a2Hw=RoSb["><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="Jw=LwT;.)e|6+aV?a=u."><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="{LQ,``7/jPcDW`1WpL8="><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="E]#*`nR-~2YPl:VxAJV-"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="-uai6xz)nK?#bL]kM%js"><field name="NUM">0</field></shadow><block type="game_score" id="[LW9yL,4K,,xEa[:j;eO"></block></value><value name="B"><shadow type="math_number" id="5.z_p+H2GAyfkouyg~DU"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="oZl0;d?b{SNQ/Ml%Ur4n"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_pause" id="Y0U|[1]aWy)L}Dp4.F`n"><value name="pause"><shadow type="timePicker" id="KP@n5PksEAhQgb~ZYF?j"><field name="ms">2000</field></shadow></value><next><block type="device_clear_display" id="KGFDc:uk/=r^NZ)l=kiG"></block></next></block></next></block></statement><statement name="ELSE"><block type="controls_if" id="bO}rb@$R+oZJnL8mZ=CG"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="6~hwTqcX_3?AB1xFm??2"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="M6/,AvIc@%OMd2|dOSzB"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Cw5]$HWpXZ4ztYAdBcxL"><field name="NUM">0</field></shadow><block type="game_score" id="+Mqrpc{TtNoTi0bSLjG["></block></value><value name="B"><shadow type="math_number" id="i1vpjVBnN#)vhG1DBi4{"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="BO#{2gYNT2E6IA?siI/R"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="svTIk,%Noc1m~`v;E[5D"><value name="pause"><shadow type="timePicker" id="L!ar8T1)l/jqN5UCz+@3"><field name="ms">2000</field></shadow></value><next><block type="device_clear_display" id="{P%YhRrfvo1Tz8i$^?4T"></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="huqDc.`Dxds;*`3;w0FZ"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        # # . # # 
+        # # . # #
+        `</field><next><block type="device_pause" id="yF9Eo;/:-,ykOp0Kow!x"><value name="pause"><shadow type="timePicker" id="!]}x|cC,?s|)5!I5LqP["><field name="ms">2000</field></shadow></value><next><block type="device_clear_display" id="AjUu:o-GYWlzH]CF%3*a"></block></next></block></next></block></statement></block></statement></block></next></block></statement></block></xml>
